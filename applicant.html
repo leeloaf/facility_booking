@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Applicant Details</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Applicant Details</h1>
+        <form action="applicant.php" method="POST">
+            <div class="form-group">
+                <label for="Name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div><br>
+
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="phone" id="phone" name="phone">
+            </div><br>
+
+            <div class="form-group">
+                <label for="faculty">Faculty</label>
+                <input type="faculty" id="faculty" name="faculty">
+            </div><br>
+
+            <div class="form-group">
+                <label for="matriks">ID</label>
+                <input type="matriks" id="matriks" name="matriks">
+            </div><br>
+
+            <div class="form-group">
+                <label for="position">Position</label>
+                <input type="position" id="position" name="position">
+            </div><br>
+
+            <div class="form-group">
+                <label for="applicant">Applicant Type:</label>
+                <input type="applicant" id="applicant" name="applicant">
+            </div><br>
+
+            <div class="form-group">
+                <label for="image">Image</label>
+                <input type="file" name="image" accept="image/*">
+            </div><br>
+            <button type="submit">Submit</button>
+        </form>
+        <button onclick="window.location.href='bookdet.html'">Booking Details</button>
+    </div>
+    </div>
+</body>
+</html>
